@@ -52,6 +52,7 @@ class ConductTransaction extends Component {
           })
         }
         <br />
+
         <FormGroup>
           <FormControl
             input='text'

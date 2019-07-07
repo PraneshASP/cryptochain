@@ -16,15 +16,13 @@ class App extends Component {
 
     return (
       <div className='App'>
-        <img className='logo' src={logo}></img>
-        <br />
         <div>
-          Welcome to the blockchain...
+          Primitive Version (v0.0.1) of Novuschain
         </div>
         <br />
-        <div><Link to='/blocks'>Blocks</Link></div>
-        <div><Link to='/conduct-transaction'>Conduct a Transaction</Link></div>
-        <div><Link to='/transaction-pool'>Transaction Pool</Link></div>
+        <div className="menu"><Link to='/blocks'>Blocks</Link></div>
+        <div className="menu"><Link to='/conduct-transaction'>Conduct a Transaction</Link></div>
+        <div className="menu"><Link to='/transaction-pool'>Transaction Pool</Link></div>
         <br />
         <div className='WalletInfo'>
           <div>Address: {address}</div>
